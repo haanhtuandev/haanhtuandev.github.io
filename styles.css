@@ -1,0 +1,46 @@
+
+*{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.nav_bar_list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.nav_bar_list li {
+    list-style-type: none ;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.body {
+
+    margin: 80px;
+}
+
+
+.whoami p {
+    font-size: larger;
+
+}
+
+.why {
+    margin-top: 60px;
+}
+.why p {
+    font-size: larger;
+
+
+}
+.contact {
+    margin-top: 60px;
+
+}
+.contact img {
+    max-width: 32px;
+    border-radius: 90px;
+}
