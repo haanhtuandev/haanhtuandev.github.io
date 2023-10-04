@@ -2,6 +2,7 @@
 *{
     text-align: center;
     font-family: sans-serif;
+
 }
 
 
@@ -10,15 +11,25 @@
     display: flex;
     justify-content: center;
     gap: 2em;
+    background-color: slategrey;
+
 }
 .nav_bar_list li {
     list-style-type: none ;
-    text-decoration: none;
     font-size: 1.5em;
+    padding: 10px;
+
 }
+.nav_bar_list a {
+    color: white;
+    text-decoration: none;
+}
+.nav_bar_list a ::after
+
+
 
 .body {
-
+    background-color: black;
     margin: 80px;
 }
 
@@ -27,20 +38,34 @@
     font-size: larger;
 
 }
+.whoami {
+    background-color: rgb(119, 138, 121);
+    color: white;
+
+}
 
 .why {
     margin-top: 60px;
+    background-color: rgb(232, 208, 208);
 }
 .why p {
     font-size: larger;
-
 
 }
 .contact {
     margin-top: 60px;
 
+
+
 }
 .contact img {
     max-width: 32px;
     border-radius: 90px;
+}
+#gif {
+    width: 100%;
+}
+
+#title {
+    padding-top: 20px;
 }
