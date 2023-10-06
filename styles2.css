@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+
+
+
+img {
+    max-width: 200px;
+}
+.body {
+    margin: 80px;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 100px;
+}
+.fiction,
+.skill {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav_bar_list {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background-color: slategrey;
+
+}
+.nav_bar_list li {
+    list-style-type: none ;
+    font-size: 1.5em;
+    padding: 10px;
+
+}
+.nav_bar_list a {
+    color: white;
+    text-decoration: none;
+}
