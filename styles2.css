@@ -26,13 +26,16 @@ h1 {
 .nav_bar_list {
     display: flex;
     justify-content: center;
-    gap: 2em;
-
+    gap: 4em;
+    border-bottom: 1px black solid;
+    margin-top: 0px;
+    padding-right: 50px;
 }
 .nav_bar_list li {
     list-style-type: none ;
-    font-size: 1.5em;
     padding: 10px;
+    font-style:oblique;
+
 
 }
 .nav_bar_list a {

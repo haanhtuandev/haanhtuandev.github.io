@@ -24,7 +24,6 @@ function darkmode(){
             nav.style.color = 'white';
         });
         dark_switch.innerHTML = '----->light<-----';
-
     }
     else {
         document.body.style.backgroundColor = 'white';
