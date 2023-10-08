@@ -1,7 +1,8 @@
 
 *{
     text-align: left;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 
 }
 
@@ -9,7 +10,7 @@
     display: flex;
     justify-content: center;
     gap: 2em;
-    background-color: slategrey;
+
 
 }
 .nav_bar_list li {
@@ -19,7 +20,7 @@
 
 }
 .nav_bar_list a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -66,10 +67,11 @@
     padding-top: 20px;
 }
 
-#tap {
-    margin-top: 80px;
-    padding: 20px;
-    border-radius: 50px;
+#darkmode {
+    cursor: pointer;
+    margin-top: 60px;
+    text-align: center;
+
 }
 
 

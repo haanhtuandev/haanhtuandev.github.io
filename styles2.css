@@ -27,7 +27,6 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 2em;
-    background-color: slategrey;
 
 }
 .nav_bar_list li {
@@ -37,11 +36,15 @@ h1 {
 
 }
 .nav_bar_list a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
-
+#darkmode {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 60px;
+}
 
 @media screen and (max-width: 600px) {
     .body {
