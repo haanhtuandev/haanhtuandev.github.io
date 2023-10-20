@@ -5,7 +5,6 @@
 
 
 }
-
 .nav_bar_list {
     display: flex;
     justify-content: center;
@@ -16,16 +15,15 @@
 }
 .nav_bar_list li {
     list-style-type: none ;
-    font-style:oblique;
     padding: 10px;
+    font-style:oblique;
+
 
 }
 .nav_bar_list a {
     color: black;
     text-decoration: none;
 }
-
-
 
 .body {
     margin: 80px;

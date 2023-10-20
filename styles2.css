@@ -2,7 +2,25 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.nav_bar_list {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    border-bottom: 1px black solid;
+    margin-top: 0px;
+    padding-right: 50px;
+}
+.nav_bar_list li {
+    list-style-type: none ;
+    padding: 10px;
+    font-style:oblique;
 
+
+}
+.nav_bar_list a {
+    color: black;
+    text-decoration: none;
+}
 
 img {
     max-width: 200px;
@@ -23,25 +41,6 @@ h1 {
     flex-wrap: wrap;
 }
 
-.nav_bar_list {
-    display: flex;
-    justify-content: center;
-    gap: 4em;
-    border-bottom: 1px black solid;
-    margin-top: 0px;
-    padding-right: 50px;
-}
-.nav_bar_list li {
-    list-style-type: none ;
-    padding: 10px;
-    font-style:oblique;
-
-
-}
-.nav_bar_list a {
-    color: black;
-    text-decoration: none;
-}
 
 #darkmode {
     text-align: center;
